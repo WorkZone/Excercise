@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/info/cukes/gherkin-jvm-deps/1.0.3/gherkin-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/org/jbehave/jbehave-gherkin/4.0.5/jbehave-gherkin-4.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/org/jbehave/jbehave-core/4.0.5/jbehave-core-4.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/de/codecentric/jbehave-junit-runner/1.2.0/jbehave-junit-runner-1.2.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/com/thoughtworks/paranamer/paranamer/2.4/paranamer-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/virus/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
