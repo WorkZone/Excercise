@@ -32,6 +32,7 @@ import org.jbehave.core.steps.SilentStepMonitor;
 import org.jbehave.core.steps.StepFinder;
 import org.junit.runner.RunWith;
 
+import com.one.steps.FizzBuzzParamSteps;
 import com.one.steps.FizzBuzzSteps;
 import com.thoughtworks.paranamer.NullParanamer;
 
@@ -99,11 +100,13 @@ public class FizzBuzzBDDTest extends JUnitStories{
  
 	@Override
 	public InjectableStepsFactory stepsFactory() {
-		return new InstanceStepsFactory(configuration(), new FizzBuzzSteps());
+		//return new InstanceStepsFactory(configuration(), new FizzBuzzSteps());
+		return new InstanceStepsFactory(configuration(), new FizzBuzzParamSteps());
 	}
 	@Override
 	protected List<String> storyPaths() {
-		return Arrays.asList("com/one/features/fizzbuzz.feature.story");		
+		//return Arrays.asList("com/one/features/fizzbuzz.feature.story");	
+		return Arrays.asList("com/one/features/parameter.feature.story");
 	}
 	
 	
